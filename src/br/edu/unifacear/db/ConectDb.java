@@ -13,8 +13,8 @@ public class ConectDb {
 
 	public ConectDb() {
 		driver = "com.mysql.jdbc.Driver";
-		url = "jdbc:mysql://localhost:3306/integrador_iv?autoReconnect=true&useSSL=false";
-		user = "root";
+		url = "jdbc:mysql://192.168.25.9:3306/integrador_iv?autoReconnect=true&useSSL=false";
+		user = "flexdev";
 		password = "fl2xd2v_";
 	}
 	
